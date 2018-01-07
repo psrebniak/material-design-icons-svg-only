@@ -1,6 +1,6 @@
 {
   "name": "material-design-icons-svg-only",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
@@ -8,12 +8,14 @@
   },
   "description": "Svg-only pack of google material-design-icons",
   "scripts": {
+    "prebuild": "rimraf dist",
     "build": "node ./build.js"
   },
   "devDependencies": {
     "filehound": "^1.16.2",
     "fs-extra": "^5.0.0",
-    "material-design-icons": "https://github.com/google/material-design-icons.git#3.0.0"
+    "material-design-icons": "^3.0.1",
+    "rimraf": "^2.6.2"
   },
   "author": "Piotr Srebniak"
 }
