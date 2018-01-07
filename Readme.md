@@ -5,6 +5,11 @@ This project use official [material-design-icons](https://github.com/google/mate
 From https://github.com/google/material-design-icons:
 > Material design icons are the official icon set from Google that are designed under the material design guidelines.
 
+## How to install
+`npm install --save material-design-icons-svg-only` <br/>
+or <br/>
+```yarn add material-design-icons-svg-only```
+
 ## How to build
 This package contains a prebuilt `dist` directory.
 
