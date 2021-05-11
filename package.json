@@ -12,10 +12,10 @@
     "build": "node ./build.js"
   },
   "devDependencies": {
-    "filehound": "^1.16.2",
-    "fs-extra": "^5.0.0",
+    "filehound": "^1.17.4",
+    "fs-extra": "^10.0.0",
     "material-design-icons": "^3.0.1",
-    "rimraf": "^2.6.2"
+    "rimraf": "^3.0.2"
   },
   "author": "Piotr Srebniak"
 }
